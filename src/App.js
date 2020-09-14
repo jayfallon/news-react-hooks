@@ -4,7 +4,7 @@ const App = () => {
   const [news, setNews] = useState([]);
   const [searchQuery, setSearchQuery] = useState("react");
   const [url, setUrl] = useState(
-    "http://hn.algolia.com/api/v1/search?query=react"
+    "https://cors-anywhere.herokuapp.com/http://hn.algolia.com/api/v1/search?query=react"
   );
   const [loading, setLoading] = useState(false);
 
